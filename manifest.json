@@ -1,0 +1,22 @@
+{
+  "name": "Website information",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "Shows information about visited site, such as IP address, location, GMT zone etc.",
+ "browser_action" : {
+    "default_icon": { "38": "img/image38.png" },
+    "default_title": "Show website information",
+    "default_popup": "src/popup.html"
+  },
+  "icons": {
+    "38": "img/image38.png",
+    "48": "img/image48.png",
+    "64": "img/image64.png",
+    "96": "img/image96.png",
+    "128": "img/image128.png"
+  },
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ]
+}

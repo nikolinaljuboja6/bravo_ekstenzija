@@ -1,0 +1,48 @@
+body{
+	background-color: midnightblue;
+}
+.currentWeatherTable
+{
+	color: #000000;
+	border: none;
+	font-size: 10px;
+	padding: 1px !important;
+	text-align: center;
+}
+.mainWeatherDiv
+{
+	background-color: whitesmoke;
+	color: #000000;
+	width: 225px;
+	padding: 6px;
+	text-align: center;
+	line-height: 1.6em;
+	font-size: 11px;
+	font-family: Verdana;
+}
+#currentWeatherTable
+{
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+#currentWeatherCity
+{
+	color: midnightblue;
+	font-size: 20px;
+	font-weight: bold;
+}
+#currentWeatherTemperature
+{
+	font-size: 20px;
+	color: midnightblue;
+	font-weight: bold;
+}
+.bolded
+{
+	font-weight: bold;
+}
+#tableWeatherForecast tr td
+{
+	border-bottom: solid 2px midnightblue;
+}
